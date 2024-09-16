@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: nastaliq;
+  src: url(./../public/font/DimaSh.ttf);
+}
+*{
+  direction: rtl;
+  /* font-family:nastaliq !important; */
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+body{
+  font-family: nastaliq !important;
+}
+.ltr{
+  direction: ltr;
+}
+.ts07{
+  transition: all .7s;
+}
+.cp{
+  cursor: pointer;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #615f5f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #023555da;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1b62b8;
+}
+
+.rmdp-input{
+  width: 75%;
+  height: 2.5rem !important;
+text-align: center;
+font-size: 1.2rem;
+font-weight: 600;
+background: #ffffff5f;
+border: 0 !important;
+border-bottom: 2px solid white !important;
+line-height: 1rem !important;
+padding: .5rem 1rem !important;
+cursor: pointer;
+color: #f0f0f0 !important;
+}
+.jobPositionsTable{
+  height: 20vh !important ;
+  overflow:hidden !important;
+  background-color: #1b62b8;
+}
